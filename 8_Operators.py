@@ -144,3 +144,41 @@ print("a and b :",  a & b  )
 print("a or b :",  a | b  )
 print("a xor b :",  a ^ b  )
 
+
+#    <---------------------------Operators Precedence------------------->
+
+'''
+1. ()
+2. **
+3. /,//,%
+4.  *
+5.  +
+6. Bitwise Shift - >>, <<
+8. Comparison - ==, !=,>, <
+
+'''
+
+
+# <-----------------------------Type Function------------------------->
+'''
+To know data type we use type()
+'''
+
+
+roll_number = 17
+name = "Jayraj"
+
+print(type(name))
+print(type(roll_number)) 
+
+
+# <-----------------------------Typecasting------------------------->
+
+
+'''
+Converting One data type to another datatype
+'''
+
+a = "123"
+b= 345
+print(int(a),float(a), str(b))
